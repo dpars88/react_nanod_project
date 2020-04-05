@@ -12,6 +12,7 @@ class ListConatacts extends Component {
                 backgroundImage: `url(${contact.avatarURL})`
               }}
               ></div>
+
               <div className='contact-details'>
                 <p>{contact.name}</p>
                 <p>{contact.handle}</p>
